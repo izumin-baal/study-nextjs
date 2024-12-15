@@ -1,11 +1,11 @@
-import React, { Children } from "react";
+import React from "react";
 import Header from "@/components/layout/header";
 
 interface DefaultProps {
-    children?: React.ReactNode;
+  children?: React.ReactNode;
 }
 
-const Home: React.FC<DefaultProps> = ({children}) => {
+const Container: React.FC<DefaultProps> = ({children}) => {
   return (
     <div style={pageStyle}>
       <Header />
@@ -14,7 +14,7 @@ const Home: React.FC<DefaultProps> = ({children}) => {
       </main>
     </div>
   );
-};
+}
 
 const pageStyle: React.CSSProperties = {
   minHeight: "100vh",
@@ -29,4 +29,4 @@ const mainStyle: React.CSSProperties = {
   color: "black",
 };
 
-export default Home;
+export default Container;

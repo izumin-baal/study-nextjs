@@ -19,3 +19,91 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* 共通スタイル */
+h1, h2, h3, h4, h5, h6 {
+  margin: 1.5rem auto; /* my-6 */
+  width: 100%; /* w-full */
+  text-align: center;
+  color: #1e293b; /* text-slate-800 */
+  line-height: 1.375; /* leading-snug */
+  letter-spacing: normal; /* tracking-normal */
+}
+
+/* H1 */
+h1 {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: bold; /* font-bold */
+}
+
+@media (min-width: 1024px) { /* lg */
+  h1 {
+    font-size: 3rem; /* lg:text-5xl */
+    max-width: 48rem; /* lg:max-w-3xl */
+  }
+}
+
+/* H2 */
+h2 {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: bold; /* font-bold */
+}
+
+@media (min-width: 1024px) { /* lg */
+  h2 {
+    font-size: 2.5rem; /* lg:text-4xl */
+    max-width: 48rem; /* lg:max-w-3xl */
+  }
+}
+
+/* H3 */
+h3 {
+  font-size: 1.25rem; /* text-xl */
+  font-weight: 600; /* font-semibold */
+}
+
+@media (min-width: 1024px) { /* lg */
+  h3 {
+    font-size: 2rem; /* lg:text-3xl */
+    max-width: 32rem; /* lg:max-w-2xl */
+  }
+}
+
+/* H4 */
+h4 {
+  font-size: 1.125rem; /* text-lg */
+  font-weight: 600; /* font-semibold */
+}
+
+@media (min-width: 1024px) { /* lg */
+  h4 {
+    font-size: 1.5rem; /* lg:text-2xl */
+    max-width: 24rem; /* lg:max-w-xl */
+  }
+}
+
+/* H5 */
+h5 {
+  font-size: 1rem; /* text-base */
+  font-weight: 600; /* font-semibold */
+}
+
+@media (min-width: 1024px) { /* lg */
+  h5 {
+    font-size: 1.25rem; /* lg:text-xl */
+    max-width: 20rem; /* lg:max-w-lg */
+  }
+}
+
+/* H6 */
+h6 {
+  font-size: 0.875rem; /* text-sm */
+  font-weight: bold; /* font-bold */
+}
+
+@media (min-width: 1024px) { /* lg */
+  h6 {
+    font-size: 1.125rem; /* lg:text-lg */
+    max-width: 16rem; /* lg:max-w-md */
+  }
+}
